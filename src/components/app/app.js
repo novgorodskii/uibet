@@ -1,6 +1,7 @@
 import React from "react";
+import CartItem from "../../ui/cart-item";
+import SignUp from "../../ui/sign-up";
 
-import CartItem from "../cart-item";
 import "./app.sass";
 
 const App = () => {
@@ -8,6 +9,9 @@ const App = () => {
     <div className="app">
       <div className="cart">
         <CartItem />
+      </div>
+      <div className="form sign-up">
+        <SignUp />
       </div>
     </div>
   );
